@@ -13,25 +13,23 @@
     <!-- "id" uses a unique ID for a certain HTML element
          "id" can only be used by on HTML element -->
 
-    <!-- "<div>" acts a container for HTML elements -->
-    <!-- <div> with CSS is used to style blocks of content -->
-    <div id="header">
-        <!-- class is used to point to a class name in stylesheet -->
-        <!-- class can be used by JavaScript to manipulate elements with specific class name-->
+    <form>  <!-- form is used to create an HTML form for user input-->
+        <input class="todo-input" type="text" placeholder="Add a task.">
+        <!-- input most used form element -->
+        <!-- class name is "todo-input"-->
+        <!-- input type=text display  single line tet input field -->
+
+        <button class="todo-btn" type="submit">Enter</button>
 
 
-        <div class="theme">
-            <div class="standard theme-selector"></div>
-            <div class="light theme-selector"></div>
-            <div class="dark theme-selector"></div>
-        </div>
-    </div>
-    <div id="todo">
-        <form>
-            <input class="todo-input" type="text" placeholder="Add a task.">
-            <button class="todo-btn" type="submit">Enter</button>
-        </form>
-    </div>
+    </form>
+
     <script src="main.js" type="text/javascript"></script>
 </body>
 </html>
+
+
+<!-- "<div>" acts a container for HTML elements -->
+<!-- <div> with CSS is used to style blocks of content -->
+<!-- class is used to point to a class name in stylesheet -->
+<!-- class can be used by JavaScript to manipulate elements with specific class name-->

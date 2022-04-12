@@ -5,17 +5,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* type selector (matches a HTML element directly) */
 
-/*  */
-body {
+/*body {*/
     /* #363532, rgb(88, 111, 112) */
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Work Sans', sans-serif;
+    /*display: flex;
+      - determines how an elements children should behave.
+        - flex makes the box a block-level box and converts its children to flex items.
+     */
+    /*align-items: center;
+      - align items controls how flex children elements works
+        - vertically center items
+    */
+    /*flex-direction: column;
+      - with flex-direction: column, main axis is along the column
+    */
+    /*font-family: 'Work Sans', sans-serif;
     min-height: 100vh;
-    padding-top: 3%;
-}
+    padding-top: 3%;*/
+
+/*}*/
+
+
+
 
 /* .class-name is a class selector. Selects only the HTML elements in that specific class */
 .todo-input{
