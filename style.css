@@ -1,35 +1,62 @@
 
 /* "*" is a universal selector. It selects all elements on the page */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* used to create space around elements outside of borders */
+    padding: 0; /* used to create space around an element's content inside of borders */
+    box-sizing: border-box; /* allows for the padding and border to be included without
+                               going over the width and height */
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .class-name is a class selector. Selects only the HTML elements in that specific class */
+
+/* element selector */
+h1 { /* changes only the to-do list title*/
+    padding-top: 100px;
+    font-size: 70px;
+}
+form{
+    padding-top: 10px; /* applies padding to the top of todo-input and todo-btn */
+}
+
+/* only applies to the input form "add a task"*/
+.todo-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px; /* rounds the border */
+}
+
+/* only applies to the button form "enter" */
+.todo-btn {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
 /* type selector (matches a HTML element directly) */
 
 /*body {*/
-    /* #363532, rgb(88, 111, 112) */
-    /*display: flex;
-      - determines how an elements children should behave.
-        - flex makes the box a block-level box and converts its children to flex items.
-     */
-    /*align-items: center;
-      - align items controls how flex children elements works
-        - vertically center items
-    */
-    /*flex-direction: column;
-      - with flex-direction: column, main axis is along the column
-    */
-    /*font-family: 'Work Sans', sans-serif;
-    min-height: 100vh;
-    padding-top: 3%;*/
+/* #363532, rgb(88, 111, 112) */
+/*display: flex;
+  - determines how an elements children should behave.
+    - flex makes the box a block-level box and converts its children to flex items.
+ */
+/*align-items: center;
+  - align items controls how flex children elements works
+    - vertically center items
+*/
+/*flex-direction: column;
+  - with flex-direction: column, main axis is along the column
+*/
+/*font-family: 'Work Sans', sans-serif;
+min-height: 100vh;
+padding-top: 3%;*/
 
 /*}*/
-
-
-
-
-/* .class-name is a class selector. Selects only the HTML elements in that specific class */
-.todo-input{
-
-}
